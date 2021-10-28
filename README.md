@@ -1,4 +1,4 @@
-## Anonymize_Video-read.md
+## Anonymize_Video
 
 폴더에 존재하는 모든 동영상에 대해 비식별화 작업을 수행하는 프로그램입니다.
 
