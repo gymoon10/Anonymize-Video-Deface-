@@ -1,12 +1,12 @@
 ## Anonymize_Video
 
-폴더에 존재하는 모든 동영상에 대해 비식별화 작업을 수행하는 프로그램입니다.
+특정 폴더에 존재하는 모든 동영상에 대해 비식별화 작업을 수행하는 프로그램입니다.
 
 **deface 참고** : https://github.com/ORB-HD/deface
 
 <br/>
 
-모든 프로그램은 주어진 영상에 대해 CenterFace 얼굴 탐지 알고리즘을 적용시켜 검출된 얼굴에 대해 비식볋화하는 작업을 거칩니다. (deface와 동일) -> anonymized로 저장
+모든 프로그램은 주어진 영상에 대해 CenterFace 얼굴 탐지 알고리즘을 적용시켜 검출된 얼굴에 대해 비식별화하는 작업을 거칩니다. (deface와 동일) -> anonymized로 저장
 
 **CenterFace 알고리즘 참고** : https://github.com/gymoon10/Paper-Review/blob/main/review/CenterFace.pdf
 
@@ -29,3 +29,5 @@
 파이썬 파일에서 centerface.onnx의 경로와 ipath (원본 동영상 폴더 경로), opath (비식별화된 영상이 저장될 경로)를 적절하게 설정해주세요.
 
 $ python3 ~/anonymize_all_drop.py
+
+$ python3 ~/anonymize_all_inter.py
